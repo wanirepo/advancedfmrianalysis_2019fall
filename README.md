@@ -27,11 +27,11 @@ There is a good github tutorial: [https://rogerdudler.github.io/git-guide/index.
 
 ## What are the aims of this course?
 
-The functional neuroimaging, esp. functional Magnetic Resonance Imaging (fMRI), has revolutionalized how we study human brain, cognition, and behaviors. It enabled us to study fine-grained neural dynamics and representations that give rise to adaptive human behaviors and feelings. The powerful imaging methods and data had called for better analysis methods and approaches, and thanks to recent advances in statistical and computational methods (including machine learning), more researchers are developing and applying more advanced analysis methods to neuroimaging data. However, using more advanced methods itself does not make the study better automatically, and sometimes advanced methods make research worse by sacrificing the interpretability, robustness, and reproducibility of the research findings. These advanced methods should be used very carefully with a critical mind to actually help make research better. 
+The functional neuroimaging, esp. functional Magnetic Resonance Imaging (fMRI), has revolutionalized how we study human brain functions, human cognition, and behaviors. It enables us to study fine-grained neural dynamics and representations that give rise to adaptive human behaviors and cognitions. The powerful imaging methods and neuroimaging data had called for better analysis methods and approaches, and thanks to recent advances in statistical and computational methods (including machine learning), more researchers are developing and applying more advanced analysis methods to neuroimaging data. However, using more advanced methods itself does not make the study better automatically, and sometimes advanced methods make research worse by sacrificing the interpretability, robustness, and reproducibility of the research findings. These advanced methods should be used very carefully with a critical mind to actually help make research better. 
 
-The idea of making this class started from the 2019 OHBM meeting, where I saw a lot of advanced methods that I did not know well, meaning the field is rapidly changing (in terms of the analysis methodology), and we need to put efforts to know what kinds of analysis methods are being developed and used, and analyze them with a critical mind to know strengths and weaknesses of these methods. Otherwise, we will stuck! Using them is one thing, but more important thing to me is knowing them to fully understand the science behind the technology and to know where the field is heading to.  
+The idea of opening this class began with the 2019 OHBM meeting, where I saw a lot of advanced new analysis methods that I wasn't aware of, meaning that the field is rapidly changing (in terms of the analysis methodology), and we need to put efforts to know what kinds of analysis methods are being developed and used. We need to analyze them with critical eyes to know strengths and weaknesses of these new methods. Otherwise, we will stuck! Using them is one thing, but more importantly, we need to know the methods to understand the science behind the technology better and to know where the field is heading.  
 
-Let's do this process together! I believe in a collective intelligence, and through the class, I hope we can do it together. I'm planning to open this class every two years so that we can include new developments in the curriculum. Thanks!
+Let's do this process together! I believe in a collective intelligence, and through the class, I hope we can do it together. 
 
 
 ## Course format and expectations
@@ -58,13 +58,13 @@ Week  | Topic | Video lecture | Reading | Codes
 ------| ----- | ----- | ----- | -------
 Week 1 (9/6) | Class overview | 
 Week 2 (9/13) | No class | 추석 | 
-Week 3 (9/20) | Whole-brain machine learning | TBA | Lada et al. | TBA
-Week 4 (9/27) | Representational similarity analysis | TBA | Kriegeskorte | TBA
+Week 3 (9/20) | Representational similarity analysis | [Rebecca Saxe](https://www.youtube.com/watch?v=bQhg8H6iS_s) <br> [Nikolaus Kriegeskorte](https://www.youtube.com/watch?v=_-D4S0x5AFc) | Kriegeskorte et al. 2008; Nili et al., 2014 (see below to see the full refs) | [github](https://github.com/cocoanlab/khbm2019_RSA_tutorial)
+Week 4 (9/27) | Interpreting whole-brain machine learning models in neuroimaging | - | Lada et al. (under review) | [github](https://github.com/cocoanlab/interpret_ml_neuroimaging)
 Week 5 (10/4) | Method I | - | - |
 Week 6 (10/11) | IBS Symposium | - | -
 Week 7 (10/18) | No class (SfN) | - | -
 Week 8 (10/25) | Mid-term |  - | - | -
-Week 9 (11/1) | No class (출장ㅠㅠ, make-up???) | - | -
+Week 9 (11/1) | No class (출장ㅠㅠ) | - | -
 Week 10 (11/8) | Method II | - | -
 Week 11 (11/15) | Method III | |
 Week 12 (11/22) | Method IV | |
@@ -77,14 +77,39 @@ _Note._ Weekly plan described above can be adjusted as our class develops.
 
 ## Potential topics
 
-- Gradient methods
-- Non-linear dimension reduction methods (e.g., UMAP, isomap, etc.)
-- Shared response model, inter-subject FC
-- Hyperalignment
+- Gradient mapping and stepwise connectivity ([Hong et al. 2019](https://www.nature.com/articles/s41467-019-08944-1))
+- Non-linear dimension reduction methods (e.g., [UMAP](https://www.biorxiv.org/content/biorxiv/early/2018/09/06/409987.full.pdf), isomap, etc.)
+- Shared response model
+- inter-subject FC (ISFC) & Hyperalignment [Nastase et al., 2019](https://www.biorxiv.org/content/10.1101/741975v1)
+- Hyperalignment [Manning's Hypertools](https://hypertools.readthedocs.io/en/latest/) 
 - Hidden Markov Model
-- NLP/Topic modeling
+- NLP or Topic modeling 
+- Different methods in network analysis (e.g., [multilayer community detection](https://www.pnas.org/content/112/37/11678))
+- Multivariate pattern dependence ([Anzellotti et al., 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005799))
+- Temporal communities by trajectory clustering ([Thompson1 et al., 2019](https://www.biorxiv.org/content/10.1101/617027v1.abstract))
+- Deep transfer learning [link](https://arxiv.org/pdf/1907.01953.pdf)
+- Neuroimaging analysis platforms: [Neuroscout](https://alpha.neuroscout.org/), [fMRIprep](https://fmriprep.readthedocs.io/en/stable/), [MRIQC](https://mriqc.readthedocs.io/en/stable/), [fMRIDenoise](https://github.com/nbraingroup/fmridenoise), [Neurolearn](http://neuro-learn.org/)
 
 and more
 
 
+#### See some existing awesome tutorials
+
+[MIND2017](https://mindsummerschool.org/2017/08/13/multiscale-network-dynamics.html)
+[MIND2018](https://mindsummerschool.org/2018/07/30/narratives-and-naturalistic-contexts.html)
+[Neurohackademy2018](https://www.youtube.com/playlist?list=PLO3l0PnUGHYEqA7rFQT2jM6jxsaC2XiHh)
+[Neurohackademy2019](https://www.youtube.com/results?search_query=NeuroHackademy+2019)
+[Mumfordbrainstats](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA)
+
+## Full references
+
+### Week 3
+
+Kriegeskorte, N., Mur, M., & Bandettini, P. (2008). Representational similarity analysis - connecting the branches of systems neuroscience. Frontiers in Systems Neuroscience, 2(November), 4.
+
+Nili, H., Wingfield, C., Walther, A., Su, L., Marslen-Wilson, W., & Kriegeskorte, N. (2014). A Toolbox for Representational Similarity Analysis. PLoS Computational Biology, 10(4), e1003553.
+
+### Week 4
+
+Kohoutová, L., Heo, J., Cha, S., Moon, T., Lee, S., Wager, T. D., & Woo, C. -W. (under review) Interpreting machine learning models in neuroimaging: Towards a unified framework
 

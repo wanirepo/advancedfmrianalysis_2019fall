@@ -95,11 +95,11 @@ and more
 
 #### See some existing awesome tutorials
 
-[MIND2017](https://mindsummerschool.org/2017/08/13/multiscale-network-dynamics.html)
-[MIND2018](https://mindsummerschool.org/2018/07/30/narratives-and-naturalistic-contexts.html)
-[Neurohackademy2018](https://www.youtube.com/playlist?list=PLO3l0PnUGHYEqA7rFQT2jM6jxsaC2XiHh)
-[Neurohackademy2019](https://www.youtube.com/results?search_query=NeuroHackademy+2019)
-[Mumfordbrainstats](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA)
+- [MIND2017](https://mindsummerschool.org/2017/08/13/multiscale-network-dynamics.html)
+- [MIND2018](https://mindsummerschool.org/2018/07/30/narratives-and-naturalistic-contexts.html)
+- [Neurohackademy2018](https://www.youtube.com/playlist?list=PLO3l0PnUGHYEqA7rFQT2jM6jxsaC2XiHh)
+- [Neurohackademy2019](https://www.youtube.com/results?search_query=NeuroHackademy+2019)
+- [Mumfordbrainstats](https://www.youtube.com/channel/UCZ7gF0zm35FwrFpDND6DWeA)
 
 ## Full references
 

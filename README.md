@@ -65,7 +65,7 @@ Week 6 (10/11) | IBS Symposium (no class) | - | -
 Week 7 (10/18) | SfN (no class) | - | -
 Week 8 (10/25) | Mid-term |  - | - | -
 Week 9 (11/1) | No class (출장ㅠㅠ) | - | -
-Week 10 (11/8) | ICA/PCA | - | -
+Week 10 (11/8) | ICA/PCA | - |  ICA: Hyvärinen & Oja, 2000, Neural Network [link](https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf) | -
 Week 11 (11/15) | Transfer learning | |
 Week 12 (11/22) | Hyperalignment | |
 Week 13 (11/29) | ISFC/SRM | |

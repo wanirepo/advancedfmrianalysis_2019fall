@@ -54,23 +54,23 @@ This class will use the absolute evaluation.
 
 ## Schedule
 
-Week  | Topic | Video lecture | Reading | Codes
+Week  | Topic | Video lecture | Reading | Codes 
 ------| ----- | ----- | ----- | -------
 Week 1 (9/6) | Class overview | 
 Week 2 (9/13) | No class | 추석 | 
 Week 3 (9/20) | Representational similarity analysis | [Rebecca Saxe](https://www.youtube.com/watch?v=bQhg8H6iS_s) <br> [Nikolaus Kriegeskorte](https://www.youtube.com/watch?v=_-D4S0x5AFc) | Kriegeskorte et al. 2008; Nili et al., 2014 (see below to see the full refs) | [github](https://github.com/cocoanlab/khbm2019_RSA_tutorial)
 Week 4 (9/27) | Interpreting whole-brain machine learning models in neuroimaging | - | Lada et al. (under review) | [github](https://github.com/cocoanlab/interpret_ml_neuroimaging)
-Week 5 (10/4) | Method I | - | - |
-Week 6 (10/11) | IBS Symposium | - | -
-Week 7 (10/18) | No class (SfN) | - | -
+Week 5 (10/4) | Gradient analysis | Daniel Margulies [1](https://www.youtube.com/watch?v=w84tlXv3zY8) [2](https://www.youtube.com/watch?v=EWE8vd-wb-o) | Margulies et al., 2016, PNAS [link](https://www.pnas.org/content/113/44/12574) | available upon request
+Week 6 (10/11) | IBS Symposium (no class) | - | -
+Week 7 (10/18) | SfN (no class) | - | -
 Week 8 (10/25) | Mid-term |  - | - | -
 Week 9 (11/1) | No class (출장ㅠㅠ) | - | -
-Week 10 (11/8) | Method II | - | -
-Week 11 (11/15) | Method III | |
-Week 12 (11/22) | Method IV | |
-Week 13 (11/29) | Method V | |
-Week 14 (12/6) | Method VI | |
-Week 15 (12/13) | Method VII | |
+Week 10 (11/8) | ICA/PCA | - | -
+Week 11 (11/15) | Transfer learning | |
+Week 12 (11/22) | Hyperalignment | |
+Week 13 (11/29) | ISFC/SRM | |
+Week 14 (12/6) | HMM | |
+Week 15 (12/13) | Network analysis | |
 Week 16 (12/20) | 기말고사 |
 
 _Note._ Weekly plan described above can be adjusted as our class develops.

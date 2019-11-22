@@ -65,9 +65,9 @@ Week 6 (10/11) | IBS Symposium (no class) | - | -
 Week 7 (10/18) | SfN (no class) | - | -
 Week 8 (10/25) | Mid-term |  - | - | -
 Week 9 (11/1) | No class (출장ㅠㅠ) | - | -
-Week 10 (11/8) | ICA/PCA | - |  ICA: Hyvärinen & Oja, 2000, Neural Network [link](https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf) | -
-Week 11 (11/15) | Transfer learning | |
-Week 12 (11/22) | Hyperalignment | |
+Week 10 (11/8) | ICA/PCA | [PCA:StatQuest with Josh Starmer](https://www.youtube.com/watch?v=FgakZw6K1QQ) |  ICA: Hyvärinen & Oja, 2000, Neural Network [link](https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf) | -
+Week 11 (11/15) | Nipype and fMRIprep | | [Esteban et al., 2018, fMRIPrep, Nature Methods](https://www.nature.com/articles/s41592-018-0235-4)
+Week 12 (11/22) | Hyperalignment | [Hypertools by Jeremy Manning](https://www.youtube.com/watch?v=hb_ER9RGtOM) | [Haxby et al., 2011](http://haxbylab.dartmouth.edu/publications/HGC+11.pdf), [Heusser et al., 2018](http://jmlr.org/papers/volume18/17-434/17-434.pdf)
 Week 13 (11/29) | ISFC/SRM | |
 Week 14 (12/6) | HMM | |
 Week 15 (12/13) | Network analysis | |
